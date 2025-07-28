@@ -19,7 +19,7 @@
     "grammars": [{
       "language": "hilog",
       "scopeName": "source.hilog",
-      "path": "./syntaxes/hilog-log.tmLanguage.json"
+      "path": "./syntaxes/hilog.tmLanguage.json"
     }]
   }
 }
