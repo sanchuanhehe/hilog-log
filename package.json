@@ -1,0 +1,25 @@
+{
+  "name": "hilog-log",
+  "displayName": "hilog-log",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.102.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "hilog",
+      "aliases": ["hilog", "hilog"],
+      "extensions": [".hilog"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "hilog",
+      "scopeName": "source.hilog",
+      "path": "./syntaxes/hilog.tmLanguage.json"
+    }]
+  }
+}

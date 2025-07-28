@@ -1,0 +1,33 @@
+{
+  "name": "Hilog",
+  "scopeName": "source.hilog",
+  "patterns": [
+    {
+      "name": "constant.numeric.date.hilog",
+      "match": "^\\d{2}-\\d{2}"
+    },
+    {
+      "name": "constant.numeric.time.hilog",
+      "match": "\\d{2}:\\d{2}:\\d{2}\\.\\d{3}"
+    },
+    {
+      "name": "variable.pid.hilog",
+      "match": "\\b\\d{4,5}\\b"
+    },
+    {
+      "name": "keyword.other.level.hilog",
+      "match": "\\b[VDIWEF]\\b"
+    },
+    {
+      "name": "entity.name.tag.hilog",
+      "match": "[A-Z0-9]{6}/[^/]+/[^:]+:"
+    },
+    {
+      "name": "string.unquoted.message.hilog",
+      "match": "(?<=:\\s).*"
+    }
+  ],
+  "repository": {},
+  "fileTypes": ["hilog"],
+  "uuid": "hilog-log-grammar"
+}
